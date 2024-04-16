@@ -26,7 +26,7 @@ CPU Time의 cycle을 Instruction 관점에서 좀 더 자세히 바라보면, cy
 - instruction마다 소비하는 cycle이 있음.
 	- cycle은 일종의 비용임.
 - 해당 연산에 몇 개의 instruction을 소비하는가?
-$$\text{CPU Time}=\frac{\text{CPU Clock Cycles}}{\text{Clock Rate}}=\frac{\Sigma(\text{Instruction n Count}*\text{Clock cycle Per Instruction})}{\text{Clock Rate}}$$
+\(\text{CPU Time}=\frac{\text{CPU Clock Cycles}}{\text{Clock Rate}}=\frac{\Sigma(\text{Instruction n Count}*\text{Clock cycle Per Instruction})}{\text{Clock Rate}}\)
 
 - Computer A: Cycle Time = 250ps, CPI = 2.0
 - Computer B: Cycle Time = 500ps, CPI = 1.2
