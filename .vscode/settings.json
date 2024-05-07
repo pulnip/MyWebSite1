@@ -16,5 +16,9 @@
         ".github/": true,
         ".gitattributes": true,
         ".gitignore": true
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.indentSize": "tabSize"
     }
 }
