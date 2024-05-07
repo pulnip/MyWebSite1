@@ -25,17 +25,17 @@ layout: default
   
   <header class="site-category">
     <ul>
-        {% assign pages_list = site.pages %}
-        {% for node in pages_list %}
-          {% if node.title != null %}
-            {% if node.layout == "category" %}
-            <li>
-              <a class="category-link {% if page.url == node.url %} active{% endif %}"
-              href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-            </li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "category" %}
+        <li>
+          <a class="category-link {% if page.url == node.url %} active{% endif %}"
+          href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
     </ul>
   </header>
 
@@ -74,7 +74,7 @@ layout: default
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{'/posts' | relative_url }}">View All Posts &rarr;</a>
         </div>
 
       </div>
