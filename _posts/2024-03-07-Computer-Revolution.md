@@ -3,7 +3,7 @@ layout: post
 title: Computer Revolution
 subtitle: 컴퓨터의 역사, 종류...
 date: 2024-03-07 09:00 +0900
-categories: Computer Structure
+category: Computer Structure
 ---
 # Computer Revolution
 

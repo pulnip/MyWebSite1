@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "LICENSE": true,
+        "package.json": true,
+        "package-lock.json": true,
+        "Gemfile": true,
+        "Gemfile.lock": true,
+        "_config.yml": true,
+        "jekyll-theme-clean-blog.gemspec": true,
+        ".jekyll-cache/": true,
+        "bin/": true,
+        "assets/": true,
+        "_sass/": true,
+        "_site/": true,
+        "404.html": true,
+        ".github/": true,
+        ".gitattributes": true,
+        ".gitignore": true
+    }
+}

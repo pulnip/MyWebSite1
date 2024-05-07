@@ -2,7 +2,7 @@ title:              My Blog
 email:              choiwh1008@gmail.com
 description:        A Blog Theme by Start Bootstrap
 author:             pulnip
-baseurl:            "/"
+baseurl:            ""
 url:                "https://pulnip.github.io/MyWebSite1/"
 
 lang: ko

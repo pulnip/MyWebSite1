@@ -37,7 +37,11 @@ layout: default
         {{ content }}
 
         <hr>
-
+        <div>
+            {% for category in page.categories %}
+                <a href="{{site.utl}}/_posts/{{category.html}}.html">{{category}}</a>
+            {% endfor %}
+        </div>
         <div class="clearfix">
 
           {% if page.previous.url %}

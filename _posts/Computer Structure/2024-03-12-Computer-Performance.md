@@ -3,7 +3,7 @@ layout: post
 title: Computer Performance
 subtitle: 컴퓨터의 퍼포먼스에 대한 전반적인 이해
 date: 2024-03-12 09:00 +0900
-categories: Computer Structure
+category: Computer Structure
 ---
 # Performance를 결정하는 여러가지 요소
 
@@ -40,7 +40,8 @@ categories: Computer Structure
 	- 기계어 코드에 1:1로 대응.
 - HW Representation
 
-## [Response Time and Throughput](% post_url 2024-03-14-Response-Time-and-Throughput %)
+## [Response Time and Throughput](2024-03-14-Response-Time-and-Throughput.md)
+
 	Cpu에서의 성능 평가
 - Response Time: task를 끝내는 데 걸리는 시간
 - Throughput: 단위 시간 당 완료된 task 수

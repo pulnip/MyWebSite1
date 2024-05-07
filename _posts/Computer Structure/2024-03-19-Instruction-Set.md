@@ -3,7 +3,7 @@ layout: post
 title: Instruction Set
 subtitle: 컴퓨터가 사용하는 어휘
 date: 2024-03-19 09:00:00 +0900
-categories: Computer Structure
+category: Computer Structure
 ---
 # Instruction Set
 

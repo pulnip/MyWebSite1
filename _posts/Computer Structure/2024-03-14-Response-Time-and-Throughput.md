@@ -3,7 +3,7 @@ layout: post
 title: Response Time and Throughput
 subtitle: 컴퓨터의 퍼포먼스는 어떻게 측정할 수 있는가.
 date: 2024-03-14 00:10:30 +0900
-categories: Computer Structure
+category: Computer Structure
 ---
 # Measuring Execution
 - Elapsed time
